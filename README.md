@@ -1,12 +1,8 @@
-# [React Material Kit](https://appseed.us/apps/material-kit)
+# Brandboard React Frontend
 
-Full-Stack app with **Material Design** coded in **React**
+This React app was bootstrapped with [React Material Kit](https://appseed.us/apps/material-kit)
 
-<br />
-
-![Material Kit React](https://github.com/app-generator/static/blob/master/products/react-express-material-kit.jpg?raw=true)
-
-<br />
+The UI elements were designed by [CreativeTim](https://www.creative-tim.com/product/material-kit-react)
 
 ## Requirements
 - [Node.js](https://nodejs.org/) >= 6.x
@@ -24,26 +20,20 @@ Full-Stack app with **Material Design** coded in **React**
 
 **Install Dependencies**
 ```bash
-$ yarn 
+$ yarn
 ```
 
 **Start app for development**
-* **Linux/MacOs**: 
+* **Linux/MacOs**:
 ```yarn start```
 
 * Visit [localhost:8080](http://localhost:8080) in your browser. The `default port 8080` can be overwritten by updating the `package.json`, `scripts \ start` attribute.
 
 **Production Build**
-* **Linux/MacOs**: 
+* **Linux/MacOs**:
 `yarn build` - build the app in `build` directory
 
 <br />
 
-## Support
-
-For issues and features request, use **Github** or access the [support page](https://appseed.us/support) provided by **AppSeed** 
-
-<br />
-
 ---
-[React Material Kit](https://appseed.us/apps/material-kit) provided by **AppSeed**
+Starter code: [React Material Kit](https://appseed.us/apps/material-kit) provided by **AppSeed**

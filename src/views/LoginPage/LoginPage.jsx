@@ -67,7 +67,7 @@ class LoginPage extends React.Component {
         password: this.state.password.value
     }
 
-    const url = 'http://localhost:3000/api/users/login';
+    const url = 'http://localhost:5000/api/users/login';
 
     fetch(url, {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
@@ -99,7 +99,7 @@ class LoginPage extends React.Component {
             const { token, ...userData } = user;
 
             Cookies.create('token', token, null);
-            
+
             this.props.dispatch(login(userData));
             this.props.history.push('/');
         }
@@ -181,7 +181,7 @@ class LoginPage extends React.Component {
                             </InputAdornment>
                           )
                         }}
-                        
+
                       />
                       <CustomInput
                         labelText="Password"
