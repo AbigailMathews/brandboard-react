@@ -1,5 +1,7 @@
 # Brandboard React Frontend
 
+This is the React frontend of a Branding/Moodboard generator app, intended for use with the Flask backend available here: [brandboard-flask](https://github.com/AbigailMathews/brandboard-flask)
+
 This React app was bootstrapped with [React Material Kit](https://appseed.us/apps/material-kit)
 
 The UI elements were designed by [CreativeTim](https://www.creative-tim.com/product/material-kit-react)
